@@ -7,16 +7,18 @@ export const fetchContactsRequest = createAction(
 export const fetchContactsSuccess = createAction(
   'contacts/fetchContactsSuccess',
 );
-export const fetchContactsError = createAction(
-  'contacts/fetchContactsError',
-);
+export const fetchContactsError = createAction('contacts/fetchContactsError');
 
 export const addContactsRequest = createAction('contacts/addContactsRequest');
 export const addContactsSuccess = createAction('contacts/addContactsSucces');
 export const addContactsError = createAction('contacts/addContactsError');
 
-export const deleteContactsRequest = createAction('contacts/deleteContactsRequest');
-export const deleteContactsSuccess = createAction('contacts/deleteContactsSucces');
+export const deleteContactsRequest = createAction(
+  'contacts/deleteContactsRequest',
+);
+export const deleteContactsSuccess = createAction(
+  'contacts/deleteContactsSucces',
+);
 export const deleteContactsError = createAction('contacts/deleteContactsError');
 
 export const changeFilter = createAction('contacts/changeFilter');
@@ -27,8 +29,6 @@ export const changeFilter = createAction('contacts/changeFilter');
 //     number,
 //   },
 // }));
-
-
 
 // const deleteContact = createAction('contacts/delete');
 
